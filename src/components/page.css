@@ -1,0 +1,154 @@
+.pages {
+    width: 100%;
+    height: 450px;
+    background: #573069;
+    display: flex;
+    flex-direction: row;
+}
+.pages h1 {
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.pages p {
+    margin-left: 70px;
+    font-size: 30px;
+    color: #fff;
+
+}
+.pages img {
+    width: auto !important;
+    height: 300px;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.pages1 {
+    width: 100%;
+    height: 100px;
+    background-color: #bdbaba;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+.pages1 .user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.pages1 .subscribe {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #fff;
+}
+.pages1 p{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    
+}
+.footer h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerContainer .facebook  {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(220, 220, 230);
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+.facebook .img1 {
+    width: 100%;
+    height: 40%;
+    background: #c9d5dd;
+}
+.youtube .img1 {
+    width: 100%;
+    height: 40%;
+    background: #c9d5dd;
+}
+.instagram .img1 {
+    width: 100%;
+    height: 40%;
+    background: #c9d5dd;
+    display: flex;
+    flex-direction: column;
+}
+.img1 img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+.img1 .p11 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 90px;
+   
+}
+.img1 .p22 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.img1 .p33 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.youtube .img1 img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.footerContainer .youtube  {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(220, 220, 230);
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.footerContainer .instagram  {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(220, 220, 230);
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+@media screen and (max-width:676){
+    .pages{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+}

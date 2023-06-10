@@ -1,0 +1,131 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #112242;
+    margin-top: -21px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.container .sar {
+    width: 40%;
+    height: 100%;
+    
+
+}
+.font {
+    display: flex;
+    flex-direction: row;
+  
+}
+.listen {
+    font-size: 50px;
+    color: #e90d8d;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.to {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 8px;
+}
+.new {
+    font-size: 50px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.ptext {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.button .btn1 {
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: #9e075f;
+    color: white;
+}
+.button .btn2 {
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+   background-color: rgba(48, 28, 104, 0.856);
+    margin-left: 20px;
+}
+.button .btn2 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+
+}
+.alone {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.alone .alone1{
+    width: 15px;
+    height: 15px;
+    background-color: #9e0a0a;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.alone .alone2{
+    width: 15px;
+    height: 15px;
+    background-color: #545458;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.img {
+    width: 50%;
+    height: 100%;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    margin-left: 40px;
+   
+}
+@media screen and (max-width:676px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+        
+    }
+    .container .sar {
+        width: 100%;
+        height: 100%;
+        
+    
+    }
+    .listen {
+        margin-left: 50px;
+    }
+    .new , .ptext ,.button{
+        margin-left: 50px;
+    }
+
+.img img {
+    margin-top: 0;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+    
+}

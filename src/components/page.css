@@ -144,11 +144,38 @@
     margin-left: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
-@media screen and (max-width:676){
+@media screen and (max-width:676px){
     .pages{
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+    .pages img {
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .pages1 {
+        
+        height: 80px;
+        
+    }
+    .pages1 .user {
+        margin-left: 20px;
+    }
+    .pages1 p{
+        display: flex;
+        margin-top: 20px;
+    }
+   
+    .footer h1 {
+        font-size: 40px;
+    }
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
     
 }
